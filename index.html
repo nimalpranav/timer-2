@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer with Custom Timer Type</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="timer-container">
+        <h1>Multiple Countdown Timers</h1>
+
+        <!-- Timer Settings -->
+        <div class="timer-settings">
+            <input type="number" id="minutes-input" placeholder="Minutes" />
+            <input type="number" id="seconds-input" placeholder="Seconds" />
+            <input type="text" id="timer-type-input" placeholder="Enter Timer Type (e.g. Work, Focus)" />
+            <button id="add-timer">Add Timer</button>
+        </div>
+
+        <!-- Pomodoro Timer -->
+        <button id="pomodoro-timer">Start Pomodoro</button>
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle">Toggle Dark Mode</button>
+
+        <!-- Stop Music Button -->
+        <button id="stop-music">Stop Music</button>
+
+        <!-- Timers List -->
+        <div id="timers-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
